@@ -14,7 +14,6 @@
     width: 375px;
     color: whitesmoke;
     justify-content: center;
-    top: 0px;
   }
   
 
@@ -84,7 +83,8 @@
     justify-content: flex-start;
     list-style-type: none;
   }
-  
+
+
   .vector,a {
     padding-left: 1rem;
  }
@@ -97,6 +97,7 @@
   padding: 18vh 4vw;
 }
 
+
 #tool_head {
   color: #1c1a19;
   font-family: 'Crete Round', serif;
@@ -107,9 +108,11 @@
   padding-bottom: 2.5rem;
 }
 
+
 #tool-img {
   padding-top: 2rem;
 }
+
 
 #tool-su-header {
   color: #091e42;
@@ -120,6 +123,7 @@
   padding: 1rem;
 }
 
+
 #tool-prgf {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -128,12 +132,14 @@
   font-size: 15px;
 }
 
+
 #tool-btns {
   display: flex;
   justify-content: flex-start;
   margin-top: 4px;
   margin-left: -2rem;
 }
+
 
 #txt-btn {
   border: 1px solid #8993A4;
@@ -148,6 +154,7 @@
   margin-left: -1rem;
   padding: 0 0.7rem;
 }
+
 
 .tool-btn {
   border: 1px solid #8993a4;
@@ -164,6 +171,7 @@
   padding: 0.5rem;
 }
 
+
 .card {
   background-image: url(Images/backgoundtool.png);
   background-repeat: no-repeat;
@@ -173,6 +181,7 @@
    padding: 18vh 4vw;
   margin-top: -11rem;
 }
+
 
 .card-header {
   display: flex;
@@ -186,6 +195,7 @@
   color: #fff
 }
 
+
 .card-p {
   display: flex;
   justify-content: center;
@@ -197,16 +207,18 @@
   color: #fff;
 }
 
+
 #card-btns {
   display: flex;
   justify-content: flex-start;
 }
 
+
 .card-btn {
   flex: none;
   border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.24);;
+  background: rgba(255, 255, 255, 0.24);
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -218,6 +230,7 @@
   margin-bottom: 1rem;
   padding: 0 0.7rem;
 }
+
 
 .card-fotr {
   width: 327px;
@@ -233,6 +246,7 @@
   font-style: normal;
   line-height: 24px;
 }
+
 
 #about_me {
   background-color: #1c1a19;
