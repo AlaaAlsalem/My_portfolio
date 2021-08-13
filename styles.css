@@ -1,13 +1,15 @@
-
   .container {
     width: 375px;
     display: flex;
     justify-content: center;
-    margin-left: 550px;
-   }
+    padding: 25px;
+    margin-left: 25px;
+  }
+
+
   nav {
     position: absolute;
-    background-color: #3C3A39;
+    background-color: #3c3a39;
     height: 92px;
     width: 375px;
     color: whitesmoke;
@@ -15,13 +17,15 @@
     top: 0px;
   }
   
+
   ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0 20px 0 20px;
+    padding: 20px 20px;
   }
   
+
   li {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -29,14 +33,15 @@
     font-weight: 700;
     line-height: 24px;
   }
-  
+
   
   .main {
-    background-color: #1C1A19;
+    background-color: #1c1a19;
     height: 590px;
     width: 375px;
     
   }
+
   
   .headline {
     display: flex;
@@ -48,8 +53,8 @@
     
   }
   
-  .headline,
-  h1 {
+
+  .headline,h1 {
     color: #ff6b00;
     font-family: 'Crete Round', serif;
     font-size: 56px;
@@ -57,8 +62,8 @@
     letter-spacing: 0.37px;
   }
   
-  .headline,
-  h4 {
+
+  .headline,h4 {
     color: #fff5e1;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -67,7 +72,7 @@
     font-style: normal;
   }
   
-  .headline, h3 {
+  .headline,h3 {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
@@ -82,6 +87,161 @@
     list-style-type: none;
   }
   
-  .vector, a {
+  .vector,a {
     padding-left: 1rem;
-  }
+}
+ 
+
+.grid_conrainer{
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 18vh;
+  padding: 18vh 4vw;
+}
+
+#tool_head{
+  color: #1c1a19;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  border-bottom: black 1px solid;
+  padding-bottom: 2.5rem;
+}
+
+#tool-img{
+  padding-top: 2rem;
+}
+
+#tool-su-header{
+  color: #091e42;
+  font-family: 'Certe Round', serif;
+  font-style: normal;
+  line-height: 44px;
+  font-size: 32px;
+  padding: 1rem;
+}
+
+#tool-prgf{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #1c1e19;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+#tool-btns{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4px;
+  margin-left: -2rem;
+}
+
+#txt-btn{
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2rem;
+  margin-left: -1rem;
+  padding: 0 0.7rem;
+}
+
+.tool-btn{
+  border: 1px solid #8993a4;
+  background: #fff;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.card{
+  background-image: url(Images/backgoundtool.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+   padding: 18vh 4vw;
+  margin-top: -11rem;
+}
+
+.card-header{
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 44px;
+  color: #fff
+}
+
+.card-p{
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#card-btns{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-btn{
+  flex: none;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.24);;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 3rem;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 0.7rem;
+}
+
+.card-fotr{
+  width: 327px;
+  height: 48px;
+  background-color: #FF6B00;
+  color: #fff;
+  border: none;
+  margin-left: 0.19rem;
+  margin-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+#about_me{
+  background-color: #1c1a19;
+  width: 375px;
+  height: 600px;
+  background-image: url(Images/aboutmebackground.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+ 

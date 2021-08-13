@@ -1,15 +1,15 @@
 
 # Aladdin's Portfolio
 
-> This project is about personal portfolo for Aladdin.
+> This project is personal portfolo for Aladdin.
 
 ![screenshot](./app_screenshot.png)
 
 
 ## Built With
 
-- html
-- css
+- HTML
+- CSS
 
 
 
