@@ -39,7 +39,6 @@
     background-color: #1c1a19;
     height: 590px;
     width: 375px;
-    
   }
 
   
@@ -50,7 +49,6 @@
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    
   }
   
 
@@ -73,7 +71,7 @@
   }
   
   .headline,h3 {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 16px;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
@@ -89,17 +87,17 @@
   
   .vector,a {
     padding-left: 1rem;
-}
+ }
  
 
-.grid_conrainer{
+.grid_conrainer {
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 18vh;
   padding: 18vh 4vw;
 }
 
-#tool_head{
+#tool_head {
   color: #1c1a19;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -109,11 +107,11 @@
   padding-bottom: 2.5rem;
 }
 
-#tool-img{
+#tool-img {
   padding-top: 2rem;
 }
 
-#tool-su-header{
+#tool-su-header {
   color: #091e42;
   font-family: 'Certe Round', serif;
   font-style: normal;
@@ -122,7 +120,7 @@
   padding: 1rem;
 }
 
-#tool-prgf{
+#tool-prgf {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #1c1e19;
@@ -130,14 +128,14 @@
   font-size: 15px;
 }
 
-#tool-btns{
+#tool-btns {
   display: flex;
   justify-content: flex-start;
   margin-top: 4px;
   margin-left: -2rem;
 }
 
-#txt-btn{
+#txt-btn {
   border: 1px solid #8993A4;
   box-sizing: border-box;
   background: #ff6b00;
@@ -151,7 +149,7 @@
   padding: 0 0.7rem;
 }
 
-.tool-btn{
+.tool-btn {
   border: 1px solid #8993a4;
   background: #fff;
   color: #091e42;
@@ -166,7 +164,7 @@
   padding: 0.5rem;
 }
 
-.card{
+.card {
   background-image: url(Images/backgoundtool.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -176,7 +174,7 @@
   margin-top: -11rem;
 }
 
-.card-header{
+.card-header {
   display: flex;
   justify-content: center;
   padding-top: 3rem;
@@ -188,7 +186,7 @@
   color: #fff
 }
 
-.card-p{
+.card-p {
   display: flex;
   justify-content: center;
   font-family: 'Inter', sans-serif;
@@ -199,12 +197,12 @@
   color: #fff;
 }
 
-#card-btns{
+#card-btns {
   display: flex;
   justify-content: flex-start;
 }
 
-.card-btn{
+.card-btn {
   flex: none;
   border: 1px solid #8993a4;
   box-sizing: border-box;
@@ -221,10 +219,10 @@
   padding: 0 0.7rem;
 }
 
-.card-fotr{
+.card-fotr {
   width: 327px;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #fff;
   border: none;
   margin-left: 0.19rem;
@@ -236,7 +234,7 @@
   line-height: 24px;
 }
 
-#about_me{
+#about_me {
   background-color: #1c1a19;
   width: 375px;
   height: 600px;
