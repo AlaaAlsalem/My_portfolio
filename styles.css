@@ -1,4 +1,4 @@
-
+  
 .container {
   width: 375px;
   display: flex;
@@ -20,7 +20,7 @@ ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
 }
 
 li {
@@ -84,4 +84,18 @@ h3 {
 .vector,
 a {
   padding-left: 1rem;
+}
+
+#logo {
+  color: #ff6b00;
+}
+
+.header {
+  width: 375px;
+  display: flex;
+}
+
+#humbtn{
+  width: 15px;
+  padding-top: 30px;
 }
